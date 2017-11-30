@@ -4,7 +4,7 @@ from sys import argv
 # Assigning values to variables in command line with argv
 script, user_name = argv
 # Assigning '> ' to variable prompt
-prompt = '> '
+prompt = '... '
 
 # Format statement user_name / script, in command line
 print(f"Hi {user_name}, I'm the {script} script.")
