@@ -2,7 +2,7 @@
 from sys import argv
 
 # Assigning values to variables in command line with argv
-script, user_name = argv
+script, user_name, day = argv
 # Assigning '> ' to variable prompt
 prompt = '... '
 
@@ -30,3 +30,6 @@ Alright, so you said {likes} about liking me.
 You live in {lives}. Not sure where that is.
 And you have a {computer} computer. Nice.
 """)
+
+print("So how's your day?")
+print(f"{day}, sounds like a nice time. Nice.")
