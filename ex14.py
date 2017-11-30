@@ -23,7 +23,7 @@ lives = input(prompt)
 print("What kind of computer do you have?")
 computer = input(prompt)
 
-# Printing multi-line format statement with variables
+# Printing multi-line format string with variables
 # likes, lives, computer
 print(f"""
 Alright, so you said {likes} about liking me.
