@@ -15,7 +15,7 @@ second = input()
 print("Add another variable:")
 third = input()
 
-# Argv needs to have 4 variables total any less/more won't run
+# Argv needs to have 4 variables total any less / more won't run
 # Variables are called and printed
 print("The script is called:", script)
 print("Your first variable is:", first)
