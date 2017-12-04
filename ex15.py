@@ -4,12 +4,12 @@ from sys import argv
 # Argv assigns values to variables from command line
 script, filename = argv
 
-# Command open with variable filename is assigned to variable txt
+# Command open "filename" is assigned to variable txt
 txt = open(filename)
 
 # f-string formating filename
 print(f"Here's your file {filename}:")
-# Print variable txt, variable filename is open and read then printed
+# Print variable "txt", "filename" is open / read then printed
 print(txt.read())
 
 # Opening a file using user input while code is running
