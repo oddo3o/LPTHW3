@@ -4,7 +4,7 @@ script, filename = argv
 
 print(f"We're going to erase {filename}.")
 print("If you don't want that, hit CTRL-C (^C).")
-print("If you don't want that, hit RETURN.")
+print("If you do want that, hit RETURN.")
 
 input("?")
 
@@ -27,7 +27,7 @@ target.write("\n")
 target.write(line2)
 target.write("\n")
 target.write(line3)
-target.writw("\n")
+target.write("\n")
 
 print("And finally, we close it.")
 target.close()
