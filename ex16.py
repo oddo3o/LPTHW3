@@ -44,6 +44,7 @@ target.write("%s\n%s\n%s\n" % (line1, line2, line3))
 print(f"We will print what's inside {filename}.")
 # Returning the cursor back to 0 placement to print
 target.seek(0)
+# Default for open() is opening in read mode
 print(open(filename).read())
 print("And finally, we close it.")
 
