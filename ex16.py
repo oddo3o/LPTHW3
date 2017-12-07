@@ -32,7 +32,7 @@ line3 = input("line 3: ")
 print("I'm going to write these to the file.")
 # Lines 35 - 42 in one string
 # Using f-string on "line#" and escape sequence \n
-target.append("%s\n%s\n%s\n" % (line1, line2, line3))
+target.write.append("%s\n%s\n%s\n" % (line1, line2, line3))
 # "line1" written to "target"
 # target.write(line1)
 # Escape sequence \n, creates new line in "target"
