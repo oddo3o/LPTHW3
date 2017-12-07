@@ -15,7 +15,7 @@ input(":")
 print("Opening the file...")
 # Command open on "filename" is assigned to "target"
 # "w" to open file in write mode
-target = open(filename, 'w')
+target = open(filename, 'a')
 
 # Truncation is redundant because we are opening filename in "w" mode
 # print("Truncating the file. Goodbye.")
@@ -32,7 +32,7 @@ line3 = input("line 3: ")
 print("I'm going to write these to the file.")
 # Lines 35 - 42 in one string
 # Using f-string on "line#" and escape sequence \n
-target.write("%s\n%s\n%s\n" % (line1, line2, line3))
+target.append("%s\n%s\n%s\n" % (line1, line2, line3))
 # "line1" written to "target"
 # target.write(line1)
 # Escape sequence \n, creates new line in "target"
