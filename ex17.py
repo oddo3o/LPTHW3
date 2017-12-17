@@ -13,24 +13,24 @@ print(f"Copying from {from_file} to {to_file}")
 # in_file = open(from_file)
 # indata = in_file.read()
 
-# Variable indata, is using command open() and .read on 'from_file'
+# Variable indata, is using function open() and .read on 'from_file'
 # This is opening the file first, then reading what is inside
 indata = open(from_file).read()
 
-# f-string is printed, formating 'indata', using len command
-# len command reads the length of the variabe 'indata'
-print(f"The input file is {len(indata)} bytes long")
+# f-string is printed, formating 'indata', using len function
+# len function reads the length of the variabe 'indata'
+# print(f"The input file is {len(indata)} bytes long")
 
 # Importing command exists, this prints a True or False if exists
 # print f-string, formating to_file and module exists
 # module exists prints a boolean value if file exists
 # the boolean value is formatted into the f-string then printed
-print(f"Does the output file exist? {exists(to_file)}")
-print("Ready, hit RETURN to continue, CTRL-C to abort.")
+# print(f"Does the output file exist? {exists(to_file)}")
+# print("Ready, hit RETURN to continue, CTRL-C to abort.")
 # User input, to run next block, if {exist(to_file)} prints true
-input()
+# input()
 
-# variable 'out_file', command open() on 'to_file', opening in write
+# variable 'out_file', function open() on 'to_file', opening in write
 out_file = open(to_file, 'w')
 # "out_file" will open() 'to_file' in write mode, using command write
 # 'indata' will open() 'from_file' w/ command read
