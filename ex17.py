@@ -1,7 +1,7 @@
 # Importing module argv from sys to read in command line
 from sys import argv
 # Imprting module exists from os.path
-from os.path import exists
+# from os.path import exists
 
 # Assigning values to argv in the command line
 script, from_file, to_file = argv
@@ -44,3 +44,6 @@ out_file.close()
 # in_file.close()
 
 # ; can be used to create breaks in scripts
+# you can use the ; symbol to run the entire script in one line
+# cat command, concatenates the file
+# echo command, allows the user to create a file
