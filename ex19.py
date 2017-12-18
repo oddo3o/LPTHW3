@@ -63,3 +63,15 @@ print("""Any paints you think I need?
 # 'paint' is being called, input for function variable 'Want'
 paints = 'White, Teal, Black'
 Vallejo_Paint(paints, input())
+
+
+# Created a function that uses multiplication and variables
+
+
+def multiply(x):
+    return 2 * x
+
+
+multiply_2 = multiply(2)
+print(multiply_2)
+print("2 * 2 = {}".format(multiply_2))
