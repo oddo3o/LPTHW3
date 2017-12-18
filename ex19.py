@@ -34,6 +34,7 @@ Tyranid_Models(amount_of_Tyranids + 100, amount_of_boxes + 1000)
 
 
 # Study Drill: Made my own Function
+# Using int() changes value to a integer for arithmatic
 def Vallejo_Paint(Own, Want):
     print(f"Colors I own: {Own}")
     print(f"Colors I want: {Want}")
