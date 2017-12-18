@@ -3,7 +3,7 @@ from sys import argv
 
 # Assigning values to variables in command line with argv
 script, user_name, day = argv
-# Assigning '> ' to variable prompt
+# Assigning '... ' to variable prompt
 prompt = '... '
 
 # Format statement user_name / script, in command line
