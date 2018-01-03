@@ -2,11 +2,11 @@ from sys import argv
 
 script, input_file = argv
 
-
+# Function 'print'
 def print_all(f):
     print(f.read())
 
-
+# Function 'rewind'
 def rewind(f):
     f.seek(0)
 
