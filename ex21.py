@@ -5,13 +5,16 @@ def add(a, b):
     # Values are left open for next function call to replace "a" "b"
     return a + b
 
+
 def subtract(a, b):
     print(f"SUBTRACTING {a} - {b}")
     return a - b
 
+
 def multiply(a, b):
     print(f"MULTIPLYING {a} * {b}")
     return a * b
+
 
 def divide(a, b):
     print(f"DIVIDING {a} / {b}")
