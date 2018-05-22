@@ -41,4 +41,4 @@ print("That becomes: ", what, "Can you do it by hand?")
 print("New Formula:")
 math = multiply(weight, add(height, subtract(iq, divide(age, 3))))
 print("That becomes: ", math)
-# This is a test
+print("This is a test")
