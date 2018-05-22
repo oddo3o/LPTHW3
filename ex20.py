@@ -3,21 +3,25 @@ from sys import argv
 # From command line script / input_file into module argv
 script, input_file = argv
 
-# Function 'print_all' prints variable 'f' f.read reads the file
+
 def print_all(f):
     print(f.read())
+    # Function 'print_all' prints variable 'f' f.read reads the file
 
-# Function 'rewind' reads variable 'f' f.seek moves file to the 0 byte
+
 def rewind(f):
     f.seek(0)
+    # Function 'rewind' reads variable 'f' f.seek moves file to the 0 byte
 
-# Function 'print_a_line' counts lines with line_count of variable 'f'
-# f.readline() reads variable 'f'
+
 def print_a_line(line_count, f):
     print(line_count, f.readline())
+    # Function 'print_a_line' counts lines with line_count of variable 'f'
+    # f.readline() reads variable 'f'
 
-# Variable 'current_file' opens input_file in module argv
+
 current_file = open(input_file)
+# Variable 'current_file' opens input_file in module argv
 
 # Print, escape sequence \n starts next line of code on a newline
 print("First let's print the whole file:\n")
