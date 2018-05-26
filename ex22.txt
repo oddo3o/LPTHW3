@@ -62,7 +62,8 @@ User Input
 ex20 - Argv Module, Function, Print, File Command, Variable,
 File Command .readline() / open()
 
-ex21 -
+ex21 - Function, Arithmetic, Print, Variable, Format Strings,
+Order of operations
 
 Print: Python expression statement, print line for user interpretation
 print()
