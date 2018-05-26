@@ -1,0 +1,150 @@
+Ex0 - Install Python3, Installing Text Editor, Installing Terminals,
+Installing Creating New File, Change working directory.
+
+Ex1 - Creating new file good practices, Running files in Terminal,
+Using the , Using the Octothorpe to Comment, Using 'Print'. 'String'
+
+Ex2 - Practice with 'Print' and Commenting out pieces of code.
+
+Ex3 - +: Plus
+      -: Subtraction
+      /: Division
+      *: Multiplication
+      %: Remainder 'Modulus'
+      <: Less than
+      >: Greater than
+      <=: Less than equal
+      >=: Greater than equal
+Using math operations in scripts to do basic math problems. Order of
+Operations
+
+Ex4 - Creating Variables using '=' to give values to words, Calling
+Variables to do basic math, Printing variables, Decimal values
+'Floating point'
+
+Ex5 - Format string, Variable Good practices, Print, Comment
+
+Ex6 - Strings, Variable, Format String, Boolean Operations,
+Concatenation
+
+Ex7 - Print, Multiplication on line, Concatenation, Open end
+string for next line to run in, Variable
+
+Ex8 - Format, Multiline string
+
+Ex9 - Multiline string, Variable, Escape sequence
+
+Ex10 - Escape Sequence, Multiline, Format, Print, Format String
+
+Ex11 - User Input, Multiline, Format, Multiplication integer on line,
+Using integers on user input
+
+Ex12 - Format, User Input, Variable, Print
+
+Ex13 - Print, Modules, Variable
+
+Ex14 - Argv Module, Print, User Input, Format String, Variable
+
+File Ex15 - Argv Module, Print, User Input, File Commands 'Open',
+Variable
+
+Ex16 - Argv Module, Print, Format String, User Input, File Command,
+File Modes
+
+ex17 - Argv Module, Exists Module, Print, Format String, Variable,
+File Command open() / close() / write() / read(), File Mode 'w'
+
+ex18 - Function, Format String, Print, Variable
+
+ex19 - Function, Format String, Print, Arithmetic, Variable,
+User Input
+
+ex20 - Argv Module, Function, Print, File Command, Variable,
+File Command .readline() / open()
+
+ex21 -
+
+Print: Python expression statement, print line for user interpretation
+print()
+
+String: Parentheses around a line of code for user to interpret
+print("This is a string.")
+
+Floating point: Integers with a decimal place value
+1.99992
+
+Integer: Numbers
+143
+
+Variable: Name that is set equal to a value
+HELLO = 'WORLD'
+
+Format String: Variables embedded in strings
+Beautiful = User
+NICE = Sunny
+print(f"Nice weather we're having{Beautiful}.")
+print("The weather is {}.".format('NICE'))
+Hi = Hello
+print("hello %s" % (Hi))
+
+Boolean Operations: True or False values
+
+Concatenation: Merging objects with '+' operator
+'This' + ' is' = 'This is'
+
+Multiline string: String running on multiple lines
+print(
+      'Hello'
+      'Hi'
+)
+print(
+      """Hello Hi This is printing
+      multiple lines"""
+)
+
+Escape Sequence:  ~ Description
+                  \\ Backslash
+                  \' Single-Quote
+                  \" Double-Quote
+                  \a
+                  \b
+                  \f
+                  \n New line
+                  \N{name}
+                  \r
+                  \t Tab
+                  \uxxxx
+                  \Uxxxxxxxx
+                  \v
+                  \ooo
+                  \xhh
+
+File Command:  ~ Description
+           .open() - Open the file
+           .close() - Closes the opened file
+           .read() - Reads the contents of the file
+           .readline() - Reads just one line of a text file
+           .truncate() - Empties the file
+           .write() - Writes to the assigned file
+           .seek(0) - Moves read / write location to beginning of file
+
+File Modes:  ~ Description
+             r - Read file, read location moved to beginning of file
+             w - Write file, overwrites if exists, creates if not
+             a - Append file, read / write moved to end of file if
+             exists if not creates new file
+             r+ - Read and write file moves read / write to beginning
+             of file
+             w+ - Write and read file moves read / write to end of
+             file, overwrites file if exists, if not creates file
+             a+ - Append and read file moves read / write to end of
+             file if file exists, if not creates file
+
+Modules:  ~ Description
+         Argv - Holds the arguments passed in script
+         Exists - Boolean operation True or False
+
+Function:  ~ Description
+do = "What to do"
+def name(do):
+    print(f"This is where you describe {}.")
