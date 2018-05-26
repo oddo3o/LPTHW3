@@ -65,6 +65,8 @@ File Command .readline() / open()
 ex21 - Function, Arithmetic, Print, Variable, Format Strings,
 Order of operations
 
+ex23 -
+
 Print: Python expression statement, print line for user interpretation
 print()
 
