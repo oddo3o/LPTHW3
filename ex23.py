@@ -1,3 +1,5 @@
+# Powershell isn't running unicode 8 characters
+
 # Importing to system 'script\encoding\error' from command line into
 # sys.argv
 import sys
