@@ -32,7 +32,7 @@ def print_line(line, encoding, errors):
 # Variable 'raw_bytes' calls variable 'next_lang' with file command .encode
 # Encoding raw_bytes for python to interpret
 # Variable 'cooked_string' calls variable 'raw_bytes' with file command .decode
-# Python interprets decoded
+# Python interprets decoded string
 
 
 languages = open("ex23.txt", encoding="utf-8")
